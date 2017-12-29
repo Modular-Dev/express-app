@@ -1,0 +1,31 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Opinionated expressjs enhancements",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/**/*.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://modular-dev/express-app.git"
+  },
+  "keywords": [
+    "module",
+    "npm",
+    "babel",
+    "es6",
+    "nconf",
+    "configs"
+  ],
+  "author": "Fritz Batroni <fritz.g.batroni@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "graceful-shutdown-handler": "github:modular-dev/graceful-shutdown-handler"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
